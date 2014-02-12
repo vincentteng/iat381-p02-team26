@@ -2,6 +2,10 @@
 	float:left;
 	padding: 0;
 }
+.grid.right-aligned [class*="col-"]{
+	float:right;
+}
+
 [class*="col-"].padded{
 	padding: 2%
 }
@@ -14,6 +18,26 @@
 	-mox-border-sizing: border-box;
 	box-sizing: border-box;
 }
+/*------------------------------------- 6 column ------------------------------------------*/
+.col-1of6{
+	width: 16.666666666%;
+}
+.col-2of6{
+	width: 33.333333333%;
+}
+.col-3of6{
+	width: 50%;
+}
+.col-4of6{
+	width: 66.666666666%;
+}
+.col-5of6{
+	width: 83.333333333%;
+}
+.col-6of6{
+	width: 100%;
+}
+
 /*------------------------------------- 5 column ------------------------------------------*/
 .col-1of5{
 	width: 20%;
