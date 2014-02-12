@@ -45,8 +45,12 @@ nav {
 footer {
 	font-size: 0.8em;
 }
-
-
+p{
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
 .nav-element{
 	text-decoration: none;
 }
