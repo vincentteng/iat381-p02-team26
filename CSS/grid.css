@@ -84,3 +84,15 @@
 .col-2of2{
 	width: 100%;
 }
+
+@media (max-width:768px){
+	.col-1of5{
+		width: 33.333%;
+	}
+}
+
+@media (max-width:480px){
+	.col-1of5{
+		width: 100%;
+	}
+}
