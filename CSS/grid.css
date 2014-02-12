@@ -2,6 +2,9 @@
 	float:left;
 	padding: 0;
 }
+[class*="col-"].padded{
+	padding: 2%
+}
 .grid:after{
 	content: "";
 	clear:both;

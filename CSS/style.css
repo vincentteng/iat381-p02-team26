@@ -1,1 +1,29 @@
 /* style.css IAT 381 P02 */
+.centered-container{
+	margin: auto;
+	background-color: #ff0000;
+}
+.site-container{
+	max-width: 1024px;
+}
+.product-hover-info{
+width: 100%;
+height: 100%;
+position: absolute;
+text-align: center;
+color: rgba(0, 0, 0, 0.0);
+}
+.product-hover-info:hover{
+background-color: rgba(0,0,0,0.5);
+color: inherit;
+}
+.coffee-products img{
+
+}
+.product-container{
+position: relative;
+}
+
+img{
+	height: auto;
+}
