@@ -1,48 +1,25 @@
 /* style.css IAT 381 P02 */
 
-.centered-container{
-	margin: auto;
-	background-color: #ff0000;
-}
-#site-container{
-	max-width: 1024px;
-	margin: auto;
-}
-.product-hover-info{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	text-align: center;
-	color: rgba(0, 0, 0, 0.0);
-}
-.product-hover-info:hover{
-	background-color: rgba(0,0,0,0.5);
-	color: inherit;
-}
-.coffee-products img{
-
-}
-.product-container{
-	position: relative;
-}
-
-img{
-	width: auto;
-	height: auto;
-}
-
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
 }
+
+img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
 nav {
 	font-weight: 600;
-	font-size: 1.375em;
+	font-size: 1em;
 }
 
 footer {
 	font-size: 0.8em;
+	background: #333;
 }
 
 p{
@@ -52,31 +29,83 @@ p{
 -webkit-margin-end: 0px;
 }
 
+h1{
+	font-size: 1.5em;
+	font-weight: 800;
+}
 
+h2{
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+h3{
+	font-size: 1em;
+	font-weight: 800;
+}
+
+/* navigation styling */
 .nav-element {
 	width: 100%;
 }
 
 .nav-element li{
-	width: 16.666%;
-	float: left;
+	width: 16%;
+	float: right;
 	list-style: none;
-	border: 1px solid #EEE;
-	padding: 1.2em 1em;
+	border: 1px solid #DDD;
+	padding: 1.2em 0.75em;
+	background: #EEE;
+	transition: ease all 0.5s;
 }
 
-.nav-element a {
+.nav-element li:hover{
+	background: #FFF;
+}
+
+.nav-element li a {
 	text-decoration: none;
 	text-align: center;
+	color: #555;
+	text-transform: uppercase;
 }
 
-.logo{
-	width: 16.666%;
-	float: left;
+.brand{
+	width: 12%;
 	display: inline-block;
-	background: url('../imgs/ccoffee_logo.svg') no-repeat;
+	float: left;
+	margin: 0.5em 0 0 2em;
 }
 
-.logo img{
+/* end of navigation styling */
+
+.centered-container{
+	margin: auto;
+	background-color: #ff0000;
+}
+
+#site-container{
+	max-width: 1024px;
+	margin: auto;
+}
+
+.product-hover-info{
 	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.0);
+}
+
+.product-hover-info:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: inherit;
+}
+
+.coffee-products img{
+
+}
+
+.product-container{
+	position: relative;
 }

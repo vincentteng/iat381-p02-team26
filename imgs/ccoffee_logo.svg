@@ -2,45 +2,16 @@
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="400px" height="200px" viewBox="0 0 400 200" enable-background="new 0 0 400 200" xml:space="preserve">
-<font horiz-adv-x="1000">
-<!-- Copyright 1993, 1994, 2001, 2002 Adobe Systems Incorporated. All rights reserved. ITC and Avant Garde are trademarks of International Typeface Corporation registered in the U.S. Patent and Trademark Office and may be registered in certain other jurisdictions. -->
-<font-face font-family="ITCAvantGardeStd-BkCn" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
-<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
-<glyph unicode="a" horiz-adv-x="490" d="M424,544l-62,0C362,503 362,472 363,439C334,526 280,557 219,557C105,557 37,439 37,271C37,101 111,-13 219,-13C288,-13 339,30 363,104C362,78 362,48 362,0l62,0M104,272C104,396 148,491 231,491C274,491 304,468 326,431C349,394 357,344 357,272C357,201 349,151 326,113C304,76 274,53 231,53C148,53 104,148 104,271z"/>
-<glyph unicode="e" horiz-adv-x="478" d="M441,252C442,331 435,415 391,480C359,528 309,557 245,557C117,557 39,440 39,271C39,131 97,-13 247,-13C293,-13 334,2 367,30C400,59 425,102 435,158l-66,0C355,95 313,50 247,50C155,50 109,139 109,252M109,311C111,419 163,500 242,500C324,500 371,424 373,311z"/>
-<glyph unicode="o" horiz-adv-x="493" d="M37,272C37,116 101,-13 247,-13C392,-13 456,116 456,272C456,428 392,557 247,557C101,557 37,428 37,273M107,272C107,417 154,494 246,494C339,494 386,417 386,272C386,127 339,50 248,50C154,50 107,127 107,271z"/>
-<glyph unicode="r" horiz-adv-x="277" d="M66,0l67,0l0,292C133,429 200,486 246,486C255,486 263,484 271,479l0,78C223,555 153,536 126,430C128,463 128,494 128,544l-62,0z"/>
-<glyph unicode="s" horiz-adv-x="403" d="M351,403C348,504 293,557 200,557C111,557 48,501 48,414C48,317 107,282 176,259C249,236 295,210 295,144C295,89 262,49 203,49C143,49 100,86 99,160l-66,0C38,46 104,-13 203,-13C296,-13 365,53 365,149C365,258 295,295 235,313C169,333 118,355 118,416C118,464 151,497 197,497C249,497 285,472 285,403z"/>
-<glyph unicode="t" horiz-adv-x="250" d="M92,0l67,0l0,481l75,0l0,63l-75,0l0,172l-67,0l0,-172l-76,0l0,-63l76,0z"/>
-</font>
-
-	<font horiz-adv-x="1000">
-<!-- Copyright 1993, 1994, 2001, 2002 Adobe Systems Incorporated. All rights reserved. ITC and Avant Garde are trademarks of International Typeface Corporation registered in the U.S. Patent and Trademark Office and may be registered in certain other jurisdictions. -->
-<font-face font-family="ITCAvantGardeStd-XLt" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
-<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
-<glyph unicode="C" horiz-adv-x="786" d="M714,161C693,132 598,14 425,14C229,14 71,165 71,370C71,575 229,726 425,726C589,725 686,614 714,575l35,0C695,659 583,752 425,753C213,753 41,592 41,370C41,148 213,-13 425,-13C580,-13 698,76 748,161z"/>
-</font>
-
-	<font horiz-adv-x="1000">
-<!-- Copyright 1993, 1994, 2001, 2002 Adobe Systems Incorporated. All rights reserved. ITC and Avant Garde are trademarks of International Typeface Corporation registered in the U.S. Patent and Trademark Office and may be registered in certain other jurisdictions. -->
-<font-face font-family="ITCAvantGardeStd-BoldCn" units-per-em="1000" underline-position="-100" underline-thickness="50"/>
-<missing-glyph horiz-adv-x="500" d="M0,0l500,0l0,700l-500,0M250,395l-170,255l340,0M280,350l170,255l0,-510M80,50l170,255l170,-255M50,605l170,-255l-170,-255z"/>
-<glyph unicode="C" horiz-adv-x="611" d="M413,287C409,208 392,130 313,130C243,130 189,193 189,370C189,547 243,610 313,610C371,610 409,579 413,447l156,0C571,619 480,754 301,754C139,754 33,629 33,370C33,111 139,-14 301,-14C475,-14 568,118 569,287z"/>
-<glyph unicode="E" horiz-adv-x="500" d="M70,0l360,0l0,140l-208,0l0,178l208,0l0,140l-208,0l0,142l208,0l0,140l-360,0z"/>
-<glyph unicode="F" horiz-adv-x="444" d="M58,0l152,0l0,320l190,0l0,140l-190,0l0,140l190,0l0,140l-342,0z"/>
-<glyph unicode="O" horiz-adv-x="611" d="M33,370C33,138 123,-14 305,-14C487,-14 577,138 577,370C577,602 487,754 305,754C123,754 33,602 33,371M189,370C189,548 227,614 305,614C383,614 421,548 421,370C421,192 383,126 305,126C227,126 189,192 189,369z"/>
-</font>
-
+	 width="331.5px" height="115.167px" viewBox="0 0 331.5 115.167" enable-background="new 0 0 331.5 115.167" xml:space="preserve">
+<g>
 	<g>
-	<g>
-		<text transform="matrix(1 0 0 1 150.6343 85.7402)" fill="#4D4D4D" font-family="'ITCAvantGardeStd-BoldCn'" font-size="70.4277">COFFEE</text>
-		<text transform="matrix(1 0 0 1 150.6348 140.3174)" fill="#754C24" font-family="'ITCAvantGardeStd-BkCn'" font-size="70.4277">roasters</text>
-		<text transform="matrix(1 0 0 1 30.3389 140.3174)" fill="#4D4D4D" font-family="'ITCAvantGardeStd-XLt'" font-size="145.0263">C</text>
+		<text transform="matrix(1 0 0 1 115.2954 56.7568)" fill="#4D4D4D" font-family="'ITCAvantGardeStd-BoldCn'" font-size="70.4277">COFFEE</text>
+		<text transform="matrix(1 0 0 1 115.2959 111.3335)" fill="#754C24" font-family="'ITCAvantGardeStd-BkCn'" font-size="70.4277">roasters</text>
+		<text transform="matrix(1 0 0 1 -5 111.3335)" fill="#4D4D4D" font-family="'ITCAvantGardeStd-XLt'" font-size="145.0263">C</text>
 	</g>
 	<g>
-		<path fill="#4D4D4D" d="M139,88H68.59c0,0-0.009-42.256,35.205-21.128"/>
-		<path fill="#4D4D4D" d="M139,88H68.59c0,0-0.009,42.257,35.205,21.128"/>
+		<path fill="#4D4D4D" d="M103.661,59.017h-70.41c0,0-0.009-42.256,35.205-21.128"/>
+		<path fill="#4D4D4D" d="M103.661,59.017h-70.41c0,0-0.009,42.257,35.205,21.128"/>
 	</g>
 </g>
 </svg>
