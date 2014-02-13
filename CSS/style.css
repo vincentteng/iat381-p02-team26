@@ -49,6 +49,7 @@ h3{
 	width: 100%;
 }
 
+/*
 .nav-element li{
 	width: 16%;
 	float: right;
@@ -58,16 +59,26 @@ h3{
 	background: #EEE;
 	transition: ease all 0.5s;
 }
+*/
 
-.nav-element li:hover{
+.nav-element li{
+	list-style: none;
+}
+
+.nav-element li a:hover{
 	background: #FFF;
 }
 
 .nav-element li a {
+	width: 16%;
+	float: right;
+	border: 1px solid #DDD;
+	background: #EEE;
+	padding: 1.2em 0.75em;
 	text-decoration: none;
-	text-align: center;
 	color: #555;
 	text-transform: uppercase;
+	transition: ease all 0.5s;
 }
 
 .brand{
