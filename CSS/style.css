@@ -4,6 +4,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
+	padding: 0;
 }
 
 img{
@@ -15,11 +16,15 @@ img{
 nav {
 	font-weight: 600;
 	font-size: 1em;
+	letter-spacing: -0.02em;
+	background: #EEE;
+	border: 1px solid #DDD;
+}
+
+header {
 }
 
 footer {
-	font-size: 0.8em;
-	background: #333;
 }
 
 p{
@@ -44,10 +49,12 @@ h3{
 	font-weight: 800;
 }
 
-/* navigation styling */
-.nav-element {
-	width: 100%;
+#site-container{
+	max-width: 1024px;
+	margin: 0 auto;
 }
+
+/* navigation styling */
 
 /*
 .nav-element li{
@@ -61,6 +68,7 @@ h3{
 }
 */
 
+/*
 .nav-element li{
 	list-style: none;
 }
@@ -80,24 +88,48 @@ h3{
 	text-transform: uppercase;
 	transition: ease all 0.5s;
 }
-
+*/
 .brand{
 	width: 12%;
-	display: inline-block;
 	float: left;
-	margin: 0.5em 0 0 2em;
+	display: block;
+	margin: 0.5em 2em 0 2em;
 }
+
+ul.nav-element {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav-element li{
+	float: right;
+	width: 20%;
+}
+
+.nav-element li a{
+	display: block;
+	width: 100%;
+	background: #EEE;
+	border-left: 1px solid #DDD;
+	padding: 1.2em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #555;
+	transition: ease all 0.5s;
+}
+
+.nav-element li a:hover{
+	background: #FFF;
+}
+
 
 /* end of navigation styling */
 
 .centered-container{
 	margin: auto;
-	background-color: #ff0000;
-}
-
-#site-container{
-	max-width: 1024px;
-	margin: auto;
+	background: #EEE;
 }
 
 .product-hover-info{
