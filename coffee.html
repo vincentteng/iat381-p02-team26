@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link href="CSS/style.css" rel="stylesheet">
-		<link href="CSS/grid.css" rel="stylesheet">
-		<link href="CSS/normalize.css" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>C Coffee Roasters</title>
+		<!-- Stylesheet links -->
+		<link rel="stylesheet" href="CSS/normalize.css">
+		<link rel="stylesheet" href="CSS/style.css">
+		<link rel="stylesheet" href="CSS/grid.css">
+		
+		<!-- Font links -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600,800' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div class = "site-container centered-container grid">
+		<div id = "site-container">
+		<header>
+				<nav>
+					<div class="brand">
+						<a href="index.html">
+							<img alt="C Coffee Roasters logo" title="C Coffee Roasters" src="imgs/ccoffee_logo.svg">
+						</a>
+					</div><!-- end of brand -->
+					<ul class="nav-element">
+						<li><a href="coffee.html">Coffee</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul><!-- end of nav links -->
+				</nav><!-- end of nav.grid -->
+			</header><!-- end of header -->
 			<section class="grid col-5of5">
-			<header class="col-5of5">
+			<header class="col-5of5 padded">
 				<h1>Our Coffee</h1>
 			</header>	
 				<section class="col-4of5 coffee-products">
@@ -30,6 +53,25 @@
 					</div>
 				</section>
 			</section>
+			<footer id="footer">
+				<div class="grid">
+					<div class="col-1of5">
+						<p>Sample Content here</p>
+					</div>
+					<div class="col-1of5">
+						<p>Sample Content here</p>
+					</div>
+					<div class="col-1of5">
+						<p>Sample Content here</p>
+					</div>
+					<div class="col-1of5">
+						<p>Sample Content here</p>
+					</div>
+					<div class="col-1of5">
+						<p>Sample Content here</p>
+					</div>
+				</div><!-- end of grid.footer -->
+			</footer>
 		</div>
 	</body>
 </html>
