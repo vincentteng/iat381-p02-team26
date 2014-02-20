@@ -158,10 +158,21 @@ ul.nav-element {
 	#locations > section{
 		width: 50%;
 	}
-}
 
+}
 @media (max-width:480px){
 	#locations > section{
 		width: 100%;
+	}
+	.nav-element li{
+		width: 100%;
+	}
+	ul.nav-element{
+		width: 100%;
+		float:left;
+	}
+	.brand{
+		margin: 0;
+		width: 50%;	
 	}
 }
