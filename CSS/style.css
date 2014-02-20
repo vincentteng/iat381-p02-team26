@@ -12,6 +12,12 @@ body{
 	margin: 0 auto;
 }
 
+.main{
+	padding: 1em 2em;
+	border-left: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+}
+
 img{
 	width: auto;
 	height: auto;
@@ -46,6 +52,7 @@ p{
 h1{
 	font-size: 1.5em;
 	font-weight: 800;
+	color: #555;
 }
 
 h2{
@@ -149,14 +156,17 @@ ul.nav-element {
 	color: inherit;
 }
 
-.coffee-products img{
-
+.coffee-products{
+	margin: auto;
 }
 
 .product-container{
 	position: relative;
 }
 
+.title{
+	padding: 2em 0;
+}
 
 @media (max-width:800px){
 	#locations > section{

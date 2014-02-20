@@ -96,12 +96,14 @@
 	.col-2of5{
 		
 	}
+
+	.col-1of3{
+		width: 50%;
+	}
 }
 
 @media (max-width:480px){
-	.col-1of5{
-		width: 100%;
-	}
+
 	[class*="col-"]{
 		width: 100%;
 	}
