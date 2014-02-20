@@ -93,6 +93,9 @@
 	.col-4of5{
 		width: 100%;
 	}
+	.col-2of5{
+		
+	}
 }
 
 @media (max-width:480px){
