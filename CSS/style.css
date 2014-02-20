@@ -152,3 +152,16 @@ ul.nav-element {
 .product-container{
 	position: relative;
 }
+
+
+@media (max-width:768px){
+	#locations > section{
+		width: 50%;
+	}
+}
+
+@media (max-width:480px){
+	#locations > section{
+		width: 100%;
+	}
+}
