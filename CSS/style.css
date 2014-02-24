@@ -143,6 +143,8 @@ ul.nav-element {
 	background: #EEE;
 }
 
+/*
+
 .product-hover-info{
 	width: 100%;
 	height: 100%;
@@ -151,27 +153,48 @@ ul.nav-element {
 	color: rgba(0, 0, 0, 0.0);
 }
 
+*/
+
+.product-container{
+	position: relative;
+}
+
+.product-container:hover{
+
+}
+
 .product-hover-info:hover{
-	background-color: rgba(0,0,0,0.5);
 	color: inherit;
+}
+
+.product-hover-info{
+	text-align: center;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+
+}
+
+.product-container:hover .product-hover-info{
+	visibility: visible;
 }
 
 .coffee-products{
 	margin: auto;
 }
 
-.product-container{
-	position: relative;
-}
-
 .title{
-	padding: 2em 0;
+	padding: 1em 0 2em 0;
 }
 
 @media (max-width:800px){
+
+/* Not needed
 	#locations > section{
 		width: 50%;
 	}
+
+	*/
 
 	ul.nav-element{
 		border-top: 1px solid #DDD;
