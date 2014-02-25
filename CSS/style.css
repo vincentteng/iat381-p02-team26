@@ -10,12 +10,12 @@ body{
 #site-container{
 	max-width: 1280px;
 	margin: 0 auto;
+	box-shadow: 0 0 3px #DDD;
+	background: #EEE;
 }
 
 .main{
 	padding: 1em 2em;
-	border-left: 1px solid #EEE;
-	border-right: 1px solid #EEE;
 }
 
 img{
@@ -29,7 +29,7 @@ nav {
 	font-size: 1em;
 	letter-spacing: -0.02em;
 	background: #EEE;
-	border: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
 }
 
 header {
@@ -40,6 +40,7 @@ footer {
 	background: #333;
 	min-height: 150px;
 	color: #EEE;
+	font-size: 0.8em;
 }
 
 p{
@@ -115,7 +116,7 @@ ul.nav-element {
 	background: url(../imgs/coffee.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 600px;
+	height: 640px;
 	position: relative;
 }
 
@@ -125,11 +126,12 @@ ul.nav-element {
 	width: 60%;
 	height: 50%;
 	margin: auto;
+	text-align: center;
 }
 
 .brand-values{
-	border-top: 1px solid #EEE;
-	border-bottom: 1px solid #EEE;
+	border-top: 2px solid #EEE;
+	border-bottom: 2px solid #EEE;
 	padding: 1.5em;
 	margin-bottom: 1.5em;
 }
@@ -137,10 +139,13 @@ ul.nav-element {
 .brand-values h2{
 	font-size: 3rem;
 	padding: 0;
-	font-weight: 400;
-	color: #EEE;
-	text-shadow: 1px 1px 4px #222;
-	text-align: center;
+	font-weight: 800;
+	color: #FFF;
+	text-shadow: 1px 1px 4px #555;
+}
+
+.brand-values h2.small{
+	font-size: 2em;
 }
 
 .brand-button{
@@ -148,19 +153,20 @@ ul.nav-element {
 }
 
 .brand-button h3{
-	font-weight: 400;
-	font-style: italic;
-	color: #EEE;
-	border: 1px solid #EEE;
+	font-weight: 600;
+	color: #FFF;
+	text-transform: uppercase;
+	border: 1px solid #FFF;
 	display: inline-block;
-	padding: 0.8em 1em 1em;
+	padding: 1em;
 	transition: ease 0.5s;
 }
 
 .brand-button h3:hover{
-	border: 1px solid salmon;
-	background: salmon;
+	border: 1px solid #FFF;
+	background: rgba(0,0,0,0.6);
 }
+
 
 .centered-container{
 	margin: auto;
@@ -211,13 +217,47 @@ ul.nav-element {
 	padding: 1em 0 2em 0;
 }
 
+/* Footer Styling */
+
 .copyright{
-	font-size: 0.6em;
+	font-size: 0.6rem;
 	line-height: 1.2rem;
 }
 
+.social ul{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0.5em;
+}
+
+.social a{
+	text-decoration: none;
+	color: #AAA;
+}
+
+.social a:hover{
+	color: #EEE;
+}
+
+/* END OF Footer Styling */
+
+
 /* -------- MEDIA QUERIES ----------- */
 /* ---------------------------------- */
+
+@media (width: 1920px){
+	#site-container{
+		max-width: 1920px;
+	}
+
+	.logo{
+		width: 7%;
+	}
+
+	.brand-image{
+		height: 800px;
+	}
+}
 
 @media (max-width:800px){
 
@@ -233,10 +273,11 @@ ul.nav-element {
 	}
 
 	.logo{
-		width: 20%;
+		width: 25%;
 		float: none;
 		display: block;
-		margin: 0.75em 0.75em 0.5em;
+		margin: 0;
+		padding: 1em;
 	}
 
 	.nav-element li{
@@ -250,7 +291,7 @@ ul.nav-element {
 	}
 
 	.brand-image{
-		height: 520px;
+		height: 540px;
 	}
 
 @media (max-width:480px){
@@ -264,9 +305,9 @@ ul.nav-element {
 	}
 
 	.logo{
-		width: 120px;
+		width: 35%;
 		float: none;
 		display: block;
-		margin: 0.75em .75em 0.5em;
+		padding: 0.75em .75em 0.5em;
 	}
 }
