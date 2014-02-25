@@ -8,7 +8,7 @@ body{
 }
 
 #site-container{
-	max-width: 1024px;
+	max-width: 1280px;
 	margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@ header {
 }
 
 footer {
-	padding: 1em 2em;
+	padding: 2.5em 2em;
 	background: #333;
 	min-height: 150px;
 	color: #EEE;
@@ -56,8 +56,10 @@ h1{
 }
 
 h2{
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	font-weight: 600;
+	margin: 0;
+	padding: 1rem 2rem;
 }
 
 h3{
@@ -65,46 +67,16 @@ h3{
 	font-weight: 800;
 }
 
-/* navigation styling */
-
-/*
-.nav-element li{
-	width: 16%;
-	float: right;
-	list-style: none;
-	border: 1px solid #DDD;
-	padding: 1.2em 0.75em;
-	background: #EEE;
-	transition: ease all 0.5s;
-}
-*/
-
-/*
-.nav-element li{
-	list-style: none;
-}
-
-.nav-element li a:hover{
-	background: #FFF;
-}
-
-.nav-element li a {
-	width: 16%;
-	float: right;
-	border: 1px solid #DDD;
-	background: #EEE;
-	padding: 1.2em 0.75em;
-	text-decoration: none;
-	color: #555;
-	text-transform: uppercase;
-	transition: ease all 0.5s;
-}
-*/
-.brand{
-	width: 12%;
+.logo{
+	width: 10%;
 	float: left;
 	display: block;
-	margin: 0.5em 2em 0 1.5em;
+	margin: 1em 2em 0 1.5em;
+	transition: ease 0.5s;
+}
+
+.logo:hover{
+	opacity: 0.8;
 }
 
 ul.nav-element {
@@ -124,11 +96,12 @@ ul.nav-element {
 	width: 100%;
 	background: #EEE;
 	border-left: 1px solid #DDD;
-	padding: 1.2em 1em;
+	padding: 1.75em 1em;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #555;
 	transition: ease all 0.5s;
+	min-height: 80px;
 }
 
 .nav-element li a:hover{
@@ -137,6 +110,57 @@ ul.nav-element {
 
 
 /* end of navigation styling */
+
+.brand-image{
+	background: url(../imgs/coffee.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.brand-text{
+	position: absolute;
+	left: 0; right: 0; top: 0; bottom: 0;
+	width: 60%;
+	height: 50%;
+	margin: auto;
+}
+
+.brand-values{
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	padding: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.brand-values h2{
+	font-size: 3rem;
+	padding: 0;
+	font-weight: 400;
+	color: #EEE;
+	text-shadow: 1px 1px 4px #222;
+	text-align: center;
+}
+
+.brand-button{
+	text-align: center;
+}
+
+.brand-button h3{
+	font-weight: 400;
+	font-style: italic;
+	color: #EEE;
+	border: 1px solid #EEE;
+	display: inline-block;
+	padding: 0.8em 1em 1em;
+	transition: ease 0.5s;
+}
+
+.brand-button h3:hover{
+	border: 1px solid salmon;
+	background: salmon;
+}
 
 .centered-container{
 	margin: auto;
@@ -187,6 +211,14 @@ ul.nav-element {
 	padding: 1em 0 2em 0;
 }
 
+.copyright{
+	font-size: 0.6em;
+	line-height: 1.2rem;
+}
+
+/* -------- MEDIA QUERIES ----------- */
+/* ---------------------------------- */
+
 @media (max-width:800px){
 
 /* Not needed
@@ -200,7 +232,7 @@ ul.nav-element {
 		border-top: 1px solid #DDD;
 	}
 
-	.brand{
+	.logo{
 		width: 20%;
 		float: none;
 		display: block;
@@ -216,6 +248,11 @@ ul.nav-element {
 		border-bottom: 1px solid #DDD;
 		border-right: 1px solid #DDD;
 	}
+
+	.brand-image{
+		height: 520px;
+	}
+
 @media (max-width:480px){
 	.nav-element li{
 		width: 100%;
@@ -226,7 +263,7 @@ ul.nav-element {
 		border-bottom: 1px solid #DDD;
 	}
 
-	.brand{
+	.logo{
 		width: 120px;
 		float: none;
 		display: block;
