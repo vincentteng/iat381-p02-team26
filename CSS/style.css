@@ -3,7 +3,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 80%;
 	padding: 0;
 }
 
@@ -17,7 +17,16 @@ body{
 .main{
 	padding: 1em 2em;
 }
-
+li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+ul{
+	margin:0;
+	padding: 0;
+}
 img{
 	width: auto;
 	height: auto;
@@ -26,7 +35,7 @@ img{
 
 nav {
 	font-weight: 600;
-	font-size: 1em;
+	font-size: 1.3em;
 	letter-spacing: -0.02em;
 	background: #EEE;
 	border-bottom: 1px solid #DDD;
@@ -40,7 +49,6 @@ footer {
 	background: #333;
 	min-height: 150px;
 	color: #EEE;
-	font-size: 0.8em;
 }
 
 p{
@@ -60,7 +68,7 @@ h2{
 	font-size: 1.2rem;
 	font-weight: 600;
 	margin: 0;
-	padding: 1rem 2rem;
+	/*padding: 1rem 2rem;*/
 }
 
 h3{
@@ -108,7 +116,33 @@ ul.nav-element {
 .nav-element li a:hover{
 	background: #FFF;
 }
+/* START OF contact Styling */
 
+.location  header, .location  img{
+	margin-bottom: 1em;
+}
+.location{
+	margin-bottom: 3em;
+}
+#locations{
+	margin-bottom: 8em;
+}
+#contact ul{
+	font-size: 0.6rem;
+}
+#contact h2{
+	font-size:1em;
+	margin-bottom: 1em;
+}
+.contact-image{
+	background: url(../imgs/cafe_interior.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 320px;
+	position: relative;
+	margin-bottom: 3em;
+}
+/* END OF location Styling */
 
 /* end of navigation styling */
 
@@ -257,6 +291,7 @@ ul.nav-element {
 	.brand-image{
 		height: 800px;
 	}
+
 }
 
 @media (max-width:800px){
@@ -292,6 +327,9 @@ ul.nav-element {
 
 	.brand-image{
 		height: 540px;
+	}
+	#locations, #contact{
+		width: 100%;
 	}
 
 @media (max-width:480px){
