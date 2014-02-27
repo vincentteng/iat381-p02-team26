@@ -164,10 +164,11 @@ ul.nav-element {
 }
 
 .brand-values{
-	border-top: 2px solid #EEE;
-	border-bottom: 2px solid #EEE;
-	padding: 1.5em;
+	border-top: 2px dotted #EEE;
+	border-bottom: 2px dotted #EEE;
+	padding: 4em 0 4em 0;
 	margin-bottom: 1.5em;
+	/* background-color: rgba(163,161,147,0.9); */
 }
 
 .brand-values h2{
@@ -180,7 +181,17 @@ ul.nav-element {
 
 .brand-values h2.small{
 	font-size: 2em;
+	font-weight: 600;
 }
+
+p.blend-type{
+	font-family: Cambria, serif;
+	font-size: 1.5em;
+	margin-top: 0.5rem;
+	text-shadow: 1px 1px 4px #555;
+	color: #FFF;
+}
+
 
 .brand-button{
 	text-align: center;
@@ -332,6 +343,10 @@ ul.nav-element {
 		width: 100%;
 	}
 
+	.brand-text{
+		height: 70%;
+	}
+
 @media (max-width:480px){
 	.nav-element li{
 		width: 100%;
@@ -347,5 +362,9 @@ ul.nav-element {
 		float: none;
 		display: block;
 		padding: 0.75em .75em 0.5em;
+	}
+
+	.brand-text{
+		height: 80%;
 	}
 }
