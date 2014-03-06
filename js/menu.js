@@ -5,7 +5,7 @@ $(document).ready(function(){
 	var windowWidth = $(window).width();
 
 	// Hide nav when screen size is <= 800
-	if (windowWidth < 801){
+	if (windowWidth<800){
 		$("#navToggle").css("display", "block");
 		$("nav").hide();
 	}

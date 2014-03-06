@@ -80,7 +80,7 @@ h3{
 	width: 10%;
 	float: left;
 	display: block;
-	margin: 1em 2em 0 1.5em;
+	margin: 1.5% 2%;
 	transition: ease 0.5s;
 }
 
@@ -91,8 +91,8 @@ h3{
 #navToggle{
 	display: none;
 	position: absolute;
-	right: 4%;
-	top: 4%;
+	right: 0;
+	padding: 4%;
 	color: #555;
 	font-size: 1.2rem;
 	font-weight: 600;
@@ -316,6 +316,7 @@ p.blend-type{
 
 }
 
+
 @media (max-width:800px){
 
 /* Not needed
@@ -324,6 +325,9 @@ p.blend-type{
 	}
 
 	*/
+	#top{
+		border-bottom: 1px solid #DDD;
+	}
 
 	ul.nav-element{
 		border-top: 1px solid #DDD;
@@ -335,6 +339,10 @@ p.blend-type{
 		display: block;
 		margin: 0;
 		padding: 1em;
+	}
+
+	#navToggle{
+		padding-top: 4.5%;
 	}
 
 	.nav-element li{
@@ -377,5 +385,9 @@ p.blend-type{
 
 	.brand-text{
 		height: 80%;
+	}
+
+	#navToggle{
+		padding-top: 5%;
 	}
 }
