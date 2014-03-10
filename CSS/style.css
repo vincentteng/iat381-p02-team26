@@ -243,34 +243,43 @@ p.blend-type{
 
 .product-container{
 	position: relative;
+	overflow: hidden;
+	transition: ease all 0.5s;
+	-webkit-transition: ease all 0.5s;
+	-moz-transition: ease all 0.5s;
 }
 
-.product-container:hover{
-
-}
-
-.product-hover-info:hover{
-	color: inherit;
+.product-container a{
+	text-decoration: none;
 }
 
 .product-hover-info{
 	text-align: center;
-	visibility: hidden;
-	position: absolute;
-	top: 0;
-
+	background: #555;
+	color: white;
+	padding: 1em;
+	margin: 0;
+	margin-top: -4px;
 }
 
-.product-container:hover .product-hover-info{
-	visibility: visible;
+p.product-hover-info{
+	font-family: 'PT Mono', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.product-container:hover {
+	opacity: 0.6;
 }
 
 .coffee-products{
 	margin: auto;
+	margin-bottom: 3rem;
 }
 
 .title{
 	padding: 1em 0 2em 0;
+	font-size: 1.5rem;
 }
 
 /* Footer Styling */
@@ -324,10 +333,12 @@ p.blend-type{
 		width: 50%;
 	}
 
-	*/
+	
 	#top{
 		border-bottom: 1px solid #DDD;
 	}
+
+	*/
 
 	ul.nav-element{
 		border-top: 1px solid #DDD;
