@@ -121,7 +121,8 @@ ul.nav-element {
 	text-transform: uppercase;
 	color: #555;
 	transition: ease all 0.5s;
-	min-height: 80px;
+	-webkit-transition: ease all 0.5s;
+	-moz-transition: ease all 0.5s;
 }
 
 .nav-element li a:hover{
