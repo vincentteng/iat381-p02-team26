@@ -204,7 +204,8 @@ p.blend-type{
 	font-weight: 400;
 	font-style: italic;
 	font-size: 1.5rem;
-	margin-top: 0.5rem;
+	margin-top: 1rem;
+	letter-spacing: 0.05rem;
 	text-shadow: 1px 1px 4px #555;
 	color: #FFF;
 }
@@ -291,7 +292,7 @@ p.product-hover-info{
 .title p{
 	font-family: 'Vollkorn', serif;
 	font-size: 1.5rem;
-	line-height: 1.8rem;
+	line-height: 1.9rem;
 	margin: 1rem 0rem;
 }
 
@@ -299,6 +300,15 @@ p.product-hover-info{
 	padding: 2rem 0 2.5rem 0;
 	font-size: 1.5rem;
 }
+
+.product-image{
+	background: url(../imgs/extract.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
 
 /* Footer Styling */
 
@@ -413,6 +423,10 @@ p.product-hover-info{
 
 	.brand-text{
 		height: 70%;
+	}
+
+	.product-image{
+		height: 320px;
 	}
 
 @media (max-width:480px){
