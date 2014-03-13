@@ -99,13 +99,25 @@
 	.col-4of5{
 		width: 100%;
 	}
-	.col-2of5{
-		
-	}
 
 	.col-1of3{
 		width: 50%;
 	}
+
+	.col-1of4{
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.col-3of4{
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.purchase{
+		margin-top: 0;
+	}
+
 }
 
 @media (max-width:480px){

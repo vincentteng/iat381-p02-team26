@@ -47,23 +47,23 @@ p{
 	-webkit-margin-after: 0em;
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
-	line-height: 1.2rem;
+	line-height: 1.5em;
 }
 
 h1{
-	font-size: 1.5em;
+	font-size: 2rem;
 	font-weight: 800;
 }
 
 h2{
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 	font-weight: 600;
 	margin: 0;
 	/*padding: 1rem 2rem;*/
 }
 
 h3{
-	font-size: 1em;
+	font-size: 1.6rem;
 	font-weight: 800;
 }
 
@@ -325,15 +325,19 @@ p.product-hover-info.click-for-more{
 
 /* Footer Styling */
 
-.copyright{
+.copyright p{
 	font-size: 0.6rem;
-	line-height: 1.2rem;
+	line-height: 1.75em;
 }
 
 .social ul{
 	list-style: none;
 	padding-left: 0;
-	margin-top: 0.5em;
+	margin-top: 0em;
+}
+
+.social p{
+	margin-bottom: 0;
 }
 
 .social a{
@@ -343,6 +347,47 @@ p.product-hover-info.click-for-more{
 
 .social a:hover{
 	color: #EEE;
+}
+
+.purchase{
+	max-width: 200px;
+	background: #24596d;
+	border: 2px solid #24596d;
+	margin-top: 5.5rem;
+	transition: ease all 0.5s;
+	-webkit-transition: ease all 0.5s;
+	-moz-transition: ease all 0.5s;
+}
+
+.purchase:hover{
+	background: #EEE;
+}
+
+.purchase:hover p{
+	color: #24596d;
+}
+
+.purchase.col-1of4{
+	padding-right: 0;
+	margin-bottom: 1rem;
+}
+
+.purchase a{
+	text-decoration: none;
+}
+
+.purchase p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 1.2rem;
+	color: #EEE;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.7rem 2rem;
+}
+
+.related-products{
+	margin-top: 1rem;
 }
 
 /* END OF Footer Styling */
@@ -443,6 +488,10 @@ p.product-hover-info.click-for-more{
 	}
 
 @media (max-width:480px){
+	.main{
+		padding: 1rem 1.5rem;
+	}
+
 	.nav-element li{
 		width: 100%;
 		float: none;
@@ -465,5 +514,18 @@ p.product-hover-info.click-for-more{
 
 	#navToggle{
 		padding-top: 5%;
+	}
+
+	.title h1{
+		font-size: 1.8rem;
+	}
+
+	.title p{
+		font-size: 1.2rem;
+		line-height: 1.5em;
+	}
+
+	.product-image{
+		height: 200px;
 	}
 }
