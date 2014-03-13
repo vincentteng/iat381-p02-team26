@@ -4,19 +4,10 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 80%;
+	color: #555;
 	padding: 0;
 }
 
-#site-container{
-	max-width: 1280px;
-	margin: 0 auto;
-	box-shadow: 0 0 3px #DDD;
-	background: #EEE;
-}
-
-.main{
-	padding: 1em 2em;
-}
 li{
 	list-style: none;
 	margin: 0;
@@ -45,23 +36,23 @@ header {
 }
 
 footer {
-	padding: 2.5em 2em;
+	padding: 2rem 4.5rem;
 	background: #333;
 	min-height: 150px;
 	color: #EEE;
 }
 
 p{
--webkit-margin-before: 0em;
--webkit-margin-after: 0em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	line-height: 1.2rem;
 }
 
 h1{
 	font-size: 1.5em;
 	font-weight: 800;
-	color: #555;
 }
 
 h2{
@@ -75,6 +66,18 @@ h3{
 	font-size: 1em;
 	font-weight: 800;
 }
+
+#site-container{
+	max-width: 1280px;
+	margin: 0 auto;
+	box-shadow: 0 0 3px #DDD;
+	background: #EEE;
+}
+
+.main{
+	padding: 1rem 4.5rem;
+}
+
 
 .logo{
 	width: 10%;
@@ -159,7 +162,7 @@ ul.nav-element {
 /* end of navigation styling */
 
 .brand-image{
-	background: url(../imgs/coffee.jpg) no-repeat;
+	background: url(../imgs/coffee_beans_cup.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 640px;
@@ -169,7 +172,7 @@ ul.nav-element {
 .brand-text{
 	position: absolute;
 	left: 0; right: 0; top: 0; bottom: 0;
-	width: 60%;
+	width: 50%;
 	height: 50%;
 	margin: auto;
 	text-align: center;
@@ -197,13 +200,14 @@ ul.nav-element {
 }
 
 p.blend-type{
-	font-family: Cambria, serif;
-	font-size: 1.5em;
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.5rem;
 	margin-top: 0.5rem;
 	text-shadow: 1px 1px 4px #555;
 	color: #FFF;
 }
-
 
 .brand-button{
 	text-align: center;
@@ -224,23 +228,14 @@ p.blend-type{
 	background: rgba(0,0,0,0.6);
 }
 
-
 .centered-container{
 	margin: auto;
 	background: #EEE;
 }
 
-/*
-
-.product-hover-info{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	text-align: center;
-	color: rgba(0, 0, 0, 0.0);
+.add-margin-top{
+	margin-top: 1rem;
 }
-
-*/
 
 .product-container{
 	position: relative;
@@ -256,21 +251,23 @@ p.blend-type{
 
 .product-hover-info{
 	text-align: center;
-	background: #555;
+	background: #333;
 	color: white;
-	padding: 1em;
+	padding: 1rem;
 	margin: 0;
-	margin-top: -4px;
+	margin-top: -5px;
 }
 
 p.product-hover-info{
-	font-family: 'PT Mono', sans-serif;
-	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color: #EEE;
+	font-weight: 800;
 	font-size: 1rem;
+	text-transform: uppercase;
 }
 
 .product-container:hover {
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
 .coffee-products{
@@ -278,8 +275,28 @@ p.product-hover-info{
 	margin-bottom: 3rem;
 }
 
+.coffee-category h2{
+	font-size: 1.5rem;
+	font-family: 'Vollkorn', serif;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: 0.05rem;
+	display: inline-block;
+	background-color: #62868c;
+	color: #EEE;
+	padding: 0.5rem 2rem;
+	margin-top: 1rem;
+}
+
+.title p{
+	font-family: 'Vollkorn', serif;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	margin: 1rem 0rem;
+}
+
 .title{
-	padding: 1em 0 2em 0;
+	padding: 2rem 0 2.5rem 0;
 	font-size: 1.5rem;
 }
 
@@ -311,6 +328,7 @@ p.product-hover-info{
 /* -------- MEDIA QUERIES ----------- */
 /* ---------------------------------- */
 
+/* Removed for now 
 @media (width: 1920px){
 	#site-container{
 		max-width: 1920px;
@@ -325,7 +343,12 @@ p.product-hover-info{
 	}
 
 }
-
+*/
+@media(max-width: 1024px){
+	.nav-element li a{
+		padding: 1.2em 1em;
+	}
+}
 
 @media (max-width:800px){
 
@@ -340,6 +363,15 @@ p.product-hover-info{
 	}
 
 	*/
+
+	.main{
+		padding: 1rem 2rem;
+		border-top: 1px solid #DDD;
+	}
+
+	footer{
+		padding: 2rem;
+	}
 
 	ul.nav-element{
 		border-top: 1px solid #DDD;
@@ -370,6 +402,11 @@ p.product-hover-info{
 	.brand-image{
 		height: 540px;
 	}
+
+	.brand-text{
+		width: 70%;
+	}
+
 	#locations, #contact{
 		width: 100%;
 	}
