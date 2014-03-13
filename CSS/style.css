@@ -139,9 +139,7 @@ ul.nav-element {
 .location{
 	margin-bottom: 3em;
 }
-#locations{
-	margin-bottom: 8em;
-}
+
 #contact ul{
 	font-size: 0.6rem;
 }
@@ -150,12 +148,11 @@ ul.nav-element {
 	margin-bottom: 1em;
 }
 .contact-image{
-	background: url(../imgs/cafe_interior.jpg) no-repeat;
+	background: url(../imgs/contact_us.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 320px;
 	position: relative;
-	margin-bottom: 3em;
 }
 /* END OF location Styling */
 
@@ -215,6 +212,7 @@ p.blend-type{
 }
 
 .brand-button h3{
+	font-size: 1rem;
 	font-weight: 600;
 	color: #FFF;
 	text-transform: uppercase;
@@ -276,7 +274,6 @@ p.product-hover-info.click-for-more{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 80%;
-	margin-bottom: 1em;
 }
 
 
@@ -285,8 +282,7 @@ p.product-hover-info.click-for-more{
 }
 
 .coffee-products{
-	margin: auto;
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 }
 
 .coffee-category h2{
@@ -388,6 +384,37 @@ p.product-hover-info.click-for-more{
 
 .related-products{
 	margin-top: 1rem;
+	border-top: 1px solid #AAA;
+	margin-bottom: 3rem;
+}
+
+.news{
+	padding-right: 2%;	
+}
+
+.news .news-info{
+	text-transform: none;
+}
+
+#contact p{
+	font-size: 1.25rem;
+	line-height: 1.5em;
+	padding-right: 2rem;
+}
+
+.location h3{
+	font-size: 1.25rem;
+	margin: 0;
+	padding-bottom: 1rem;
+}
+
+.location p{
+	font-family: 'Vollkorn', serif;
+	font-size: 1rem;
+}
+
+.title.col-2of3{
+	padding-left: 2rem;
 }
 
 /* END OF Footer Styling */
@@ -396,22 +423,6 @@ p.product-hover-info.click-for-more{
 /* -------- MEDIA QUERIES ----------- */
 /* ---------------------------------- */
 
-/* Removed for now 
-@media (width: 1920px){
-	#site-container{
-		max-width: 1920px;
-	}
-
-	.logo{
-		width: 7%;
-	}
-
-	.brand-image{
-		height: 800px;
-	}
-
-}
-*/
 @media(max-width: 1024px){
 	.nav-element li a{
 		padding: 1.2em 1em;
@@ -419,19 +430,6 @@ p.product-hover-info.click-for-more{
 }
 
 @media (max-width:800px){
-
-/* Not needed
-	#locations > section{
-		width: 50%;
-	}
-
-	
-	#top{
-		border-bottom: 1px solid #DDD;
-	}
-
-	*/
-
 	.main{
 		padding: 1rem 2rem;
 		border-top: 1px solid #DDD;
@@ -487,6 +485,11 @@ p.product-hover-info.click-for-more{
 		height: 320px;
 	}
 
+	.clearfix{
+		clear: both;
+	}
+
+
 @media (max-width:480px){
 	.main{
 		padding: 1rem 1.5rem;
@@ -526,6 +529,10 @@ p.product-hover-info.click-for-more{
 	}
 
 	.product-image{
+		height: 200px;
+	}
+
+	.contact-image{
 		height: 200px;
 	}
 }

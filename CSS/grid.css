@@ -87,9 +87,11 @@
 /*------------------------------------- 2 column ------------------------------------------*/
 .col-1of2{
 	width: 50%;
+	padding-right: 2%;
 }
 .col-2of2{
 	width: 100%;
+	padding-right: 2%;
 }
 
 @media (max-width:800px){
@@ -117,12 +119,15 @@
 	.purchase{
 		margin-top: 0;
 	}
-
 }
 
 @media (max-width:480px){
 
 	[class*="col-"]{
 		width: 100%;
+	}
+
+	.title.col-2of3{
+		padding-left: 0;
 	}
 }
