@@ -266,6 +266,19 @@ p.product-hover-info{
 	font-size: 1rem;
 	text-transform: uppercase;
 }
+p.product-hover-info.news-info{
+	text-align: left;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+}
+p.product-hover-info.click-for-more{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 80%;
+	margin-bottom: 1em;
+}
+
 
 .product-container:hover {
 	opacity: 0.8;
